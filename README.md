@@ -1,4 +1,4 @@
-# composer-template
+<!-- # composer-template
 
 
 ## Modifica tu repositorio
@@ -10,4 +10,4 @@ git remote remove origin
 git remote add origin git@github.com:usuario/new-repository.git
 
 
-```
+``` -->
