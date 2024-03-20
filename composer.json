@@ -25,6 +25,7 @@
         "fixer": "php ./vendor/bin/php-cs-fixer fix src/ --diff",
         "fixer-test": "php ./vendor/bin/php-cs-fixer fix tests/ --diff",
         "post-package-install": [
+            "php "
         ]
     },
     "license": "MIT",
