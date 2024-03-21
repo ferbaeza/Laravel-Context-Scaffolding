@@ -95,13 +95,12 @@ php artisan zeta:crear-contexto
 
 
 
-Espero que te sea de utlidad esta pprimera version del 
-[paquete](https://github.com/ferbaeza/Laravel-Context-Scaffolding).
-
+Espero que te sea de utlidad esta primera version del paquete, link 
+[repositorio](https://github.com/ferbaeza/Laravel-Context-Scaffolding).
 
 <div align="center">
     <a href="https://github.com/ferbaeza/Laravel-Context-Scaffolding">
-    <img style="max-height:150px" src=".//src/assets/github.png">
+    <img style="max-height:150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4jFB-CRdUfIHz_otJrxBY-sBc3k9wOqzxkJFzatnZlCtlGCWePgmaGyHYWomad1RMes&usqp=CAU">
     </a>
 </div>
 
