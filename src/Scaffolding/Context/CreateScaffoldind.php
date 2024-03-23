@@ -31,15 +31,15 @@ class CreateScaffoldind extends Command
         if (($context == null)) {
             $estructureCommand = 'zeta:selecciona-crea-contexto';
             $this->call($estructureCommand);
-            // return 0;
+
         } else {
             $context = $this->nombreFormateado($context);
             $estructureFolderCommand = 'zeta:contexto-carpetas';
             $this->call($estructureFolderCommand, ['context' => $context]);
-            // return 0;
+
         }
         $this->info($context . ' Scaffold correctamente!');
-        return $context;
+        return Command::SUCCESS;
     }
 
 }

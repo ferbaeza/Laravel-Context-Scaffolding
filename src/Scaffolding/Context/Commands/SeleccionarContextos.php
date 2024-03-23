@@ -3,13 +3,13 @@
 namespace Baezeta\Console\Scaffolding\Context\Commands;
 
 use Illuminate\Console\Command;
-use Src\Shared\Laravel\Console\Traits\ContextTrait;
 use function Laravel\Prompts\search;
 use function Laravel\Prompts\select;
+use Baezeta\Console\Scaffolding\Traits\ScaffoldingTrait;
 
 class SeleccionarContextos extends Command
 {
-    use ContextTrait;
+    use ScaffoldingTrait;
 
     public const BLUE = "\033[1;34m";
     public const NO_COLOR = "\033[0m";

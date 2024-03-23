@@ -18,33 +18,13 @@ composer require baezeta/scaffold
 
 Una vez instalado el paquete, necesitaremos incluirlo en el archivo ```Kernel.php``` .
 ``` App\Console\Kernel::class``` para que pueda ser invocado a traves de **Artisan**
-```php
-<?php
+![alt text](./documentacion/img/kernel.png)
 
-namespace App\Console;
-
-use Illuminate\Console\Scheduling\Schedule;
-use Baezeta\Console\Scaffolding\Context\CreateScaffoldind;
-use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-
-class Kernel extends ConsoleKernel
-{
-    /**
-     * The Artisan commands provided by your application.
-     *
-     * @var array
-     */
-    protected $commands = [
-        CreateScaffoldind::class,
-
-    ];
-}
-```
 
 Una vez conofigurado buscara una carpeta principal **src/** que tomara como raiz del proyecto, en caso de no tenerla, crear manualmente para tener una base similar a:
 
 
-![alt text](./src/assets/skeleton.png)
+![alt text](./documentacion/img/skeleton.png)
 
 # Formas de Uso
 
@@ -73,7 +53,7 @@ Carpeta creada correctamente: Escritura
 Carpeta creada correctamente: Datos
 Zeta/Admnistracion/Usuarios/Escritura/Datos creado correctamente!
 ```
-![alt text](image.png)
+![alt text](/documentacion/img/image.png)
 
 
 Tambien podras usarlo sin pasarle **parametro** en el comando y la consola te guiara en la eleccion de las carpetas disponibles.
@@ -84,14 +64,14 @@ Tambien podras usarlo sin pasarle **parametro** en el comando y la consola te gu
 ```bash
 php artisan zeta:crear-contexto 
 ```
-![alt text](image-1.png)
+![alt text](documentacion/img/image-1.png)
 
-![alt text](image-2.png)
+![alt text](documentacion/img/image-2.png)
 
-![alt text](image-4.png)
+![alt text](documentacion/img/image-4.png)
 
 
-![alt text](image-5.png)
+![alt text](documentacion/img/image-5.png)
 
 
 
@@ -100,7 +80,7 @@ Espero que te sea de utlidad esta primera version del paquete, link
 
 <div align="center">
     <a href="https://github.com/ferbaeza/Laravel-Context-Scaffolding">
-    <img style="max-height:150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4jFB-CRdUfIHz_otJrxBY-sBc3k9wOqzxkJFzatnZlCtlGCWePgmaGyHYWomad1RMes&usqp=CAU">
+    <img style="max-height:150px" src="https://encrypted-tbn0.gstatic.com/documentacion/img/images?q=tbn:ANd9GcQP4jFB-CRdUfIHz_otJrxBY-sBc3k9wOqzxkJFzatnZlCtlGCWePgmaGyHYWomad1RMes&usqp=CAU">
     </a>
 </div>
 
