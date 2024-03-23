@@ -1,6 +1,6 @@
 {
     "name": "baezeta/scaffold",
-    "description": "Scaffold for Laravel projects",
+    "description": "Scaffold for Laravel 10.x projects",
     "autoload": {
         "files": [
                 "src/functions/functions.php"
