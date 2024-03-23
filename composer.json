@@ -1,5 +1,5 @@
 {
-    "name": "baezeta/scaffold",
+    "name": "baezeta/laravel-10-scaffold",
     "description": "Scaffold for Laravel 10.x projects",
     "autoload": {
         "files": [
