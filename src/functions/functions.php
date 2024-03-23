@@ -10,8 +10,7 @@ if(!function_exists('hello')) {
 if(!function_exists('palabraCapitalizada')) {
     function palabraCapitalizada(string $value): string
     {
-        $minusculas = minusculas($value);
-        return ucfirst($minusculas);
+        return ucfirst($value);
     }
 }
 
