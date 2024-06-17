@@ -28,12 +28,23 @@
             "php "
         ]
     },
+    "config": {
+        "optimize-autoloader": true
+    },
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
+    "type": "library",
     "authors": [
         {
             "name": "Fer Baeza",
             "email": "fbaezahurtado@gmail.com"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baezeta\\Console\\ContextServiceProvider"
+            ]
+        }
+    }
 }

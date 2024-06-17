@@ -11,26 +11,11 @@ Tener instalado Laravel  minimo version ```"laravel/framework": "^10.0"```.
 # Instalacion
 
 ```bash
-composer require baezeta/scaffold
+composer require baezeta/laravel-10-scaffold
 ```
 
-# Configuracion
 
-Una vez instalado el paquete, necesitaremos incluirlo en el archivo ```Kernel.php``` .
-``` App\Console\Kernel::class``` para que pueda ser invocado a traves de **Artisan**
-
-Tal y como se muestra en la imagen incluiremos las tres clases del paquete
-```php
-protected $commands = [
-    CreateScaffoldind::class,
-    CreateFolderContext::class,
-    SeleccionarContextos::class
-];
-```
-![alt text](./documentacion/img/kernel.png)
-
-
-Una vez conofigurado buscara una carpeta principal **src/** que tomara como raiz del proyecto, en caso de no tenerla, crear manualmente para tener una base similar a:
+Una vez instalado buscara una carpeta principal **src/** que tomara como raiz del proyecto, en caso de no tenerla, la crea automaticamente la primera vez:
 
 
 ![alt text](./documentacion/img/skeleton.png)
